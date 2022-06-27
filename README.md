@@ -10,11 +10,11 @@ python 2.7.12, tensorflow 1.12.3
 2、To generate the vocabulary, run: 
 ``` python2 data_vocab.py ```  
 
-3、The config file is in the *final_save/lstm*.  
+3、The config file is in the *save_file/lstm*.  
 
 4、Train and evaluate, run:
 ```
-CUDA_VISIBLE_DEVICES=1 python2 model.py --load-config --train-test train --weight-path ./final_save/lstm
+CUDA_VISIBLE_DEVICES=1 python2 main_file.py --load-config --train-test train --weight-path ./save_file/lstm
 ```
 
 ### Citation
