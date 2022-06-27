@@ -1,2 +1,2 @@
-Please download 100 dimensional GloVe word embeddings and put it in this file floader
-Rename the embedding file with the name "embedding.100"
+Please download 100 dimensional GloVe word embeddings and put it here(ATTOrderNet/all_data_sind/embed/).
+Rename the embedding file with the name "embedding.100".
