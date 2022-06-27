@@ -1,2 +1,2 @@
-Please download 100 dimensional GloVe word embeddings and put it in this file.
-Rename the embedding with '''embedding.100'''
+Please download 100 dimensional GloVe word embeddings and put it in this file floader
+Rename the embedding file with the name "embedding.100"
