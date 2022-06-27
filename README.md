@@ -20,11 +20,11 @@ CUDA_VISIBLE_DEVICES=1 python2 main_file.py --load-config --train-test train --w
 ### Citation
 ```
 @inproceedings{cui2018deep,
-title={Deep attentive sentence ordering network},
-author={Cui, Baiyun and Li, Yingming and Chen, Ming and Zhang, Zhongfei},
-booktitle={Proceedings of EMNLP},
-pages={4340--4349},
-year={2018}
+  title={Deep attentive sentence ordering network},
+  author={Cui, Baiyun and Li, Yingming and Chen, Ming and Zhang, Zhongfei},
+  booktitle={Proceedings of EMNLP},
+  pages={4340--4349},
+  year={2018}
 }
 ```
 
