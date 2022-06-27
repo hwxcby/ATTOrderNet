@@ -1,6 +1,7 @@
 # ATTOrderNet
-Code for the paper “Deep attentive sentence ordering network”.  
-We choose the ROC dataset as an example. 
+Code for the paper “Deep attentive sentence ordering network”. 
+
+We choose the [SIND dataset](http://visionandlanguage.net/VIST/dataset.html) as an example. 
 
 ### Requirements
 python 2.7.12, tensorflow 1.12.3
