@@ -27,5 +27,5 @@ pages={4340--4349},
 year={2018}
 }
 ```
-### Thanks 
+
 Some codes refer to the paper “End-to-End Neural Sentence Ordering Using Pointer Network”. Thanks to [SentenceOrdering_PTR](https://github.com/FudanNLP/SentenceOrdering_PTR).
