@@ -1,0 +1,49 @@
+[General]
+train_data = ./all_data_sind/train.txt
+val_data = ./all_data_sind/valid.txt
+test_data = ./all_data_sind/test.txt
+vocab_path = ./all_data_sind/vocab.100k
+embed_path = ./all_data_sind/embed/embedding.
+sent_rep = lstm
+pre_trained = True
+batch_size = 16
+embed_size = 100
+max_epochs = 100
+early_stopping = 15
+
+dropout = 0.9
+dropout_test = 1
+layer_prepostprocess_dropout = 0.1
+layer_prepostprocess_dropout_test = 0.0
+attention_dropout = 0.1
+attention_dropout_test = 0.0
+relu_dropout = 0.1
+relu_dropout_test = 0.0
+num_hidden_layers = 2
+num_heads = 8
+filter_size_attention = 2048
+adadelta_rho = 0.95
+adadelta_epsilon = 1e-6
+clip_grad_norm = None
+adam_beta1=0.9
+adam_beta2=0.98
+adam_epsilon=1e-9
+
+lr = 1
+rl_lr=0.01
+decay_epoch = 1.0
+decay_rate = 0.95
+reg = 1e-05
+num_steps = 100
+beam_size = 64
+
+[lstm]
+hidden_size = 1024
+hidden_size_decoder = 200
+rnn_numlayers = 1
+
+[cnn]
+num_filters = 512
+filter_sizes = [3, 4, 5]
+cnn_numlayers = 1
+
