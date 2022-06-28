@@ -1,5 +1,5 @@
 # ATTOrderNet
-Code for the paper “Deep attentive sentence ordering network”. 
+Code for the paper “Deep attentive sentence ordering network” (EMNLP 2018). 
 
 We choose the [SIND dataset](http://visionandlanguage.net/VIST/dataset.html) as an example. 
 
