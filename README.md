@@ -30,4 +30,4 @@ CUDA_VISIBLE_DEVICES=1 python2 main_file.py --load-config --train-test train --w
 }
 ```
 
-Some codes refer to the paper “End-to-End Neural Sentence Ordering Using Pointer Network”. Thanks to [SentenceOrdering_PTR](https://github.com/FudanNLP/SentenceOrdering_PTR).
+Some codes refer to the paper “End-to-End Neural Sentence Ordering Using Pointer Network”. Thanks!
